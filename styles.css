@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+body{
+    font-family: "Happy Monkey", cursive;
+    background: linear-gradient(#ff9bd5, #4cb3f0);
+    color: white;
+    text-align: center;
+}
+#profile{
+    width: 230px;
+    height: 190px;
+    border-radius: 50%;
+    border: 5px solid #4cb3f0;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1, h2, h3, h4{
+    text-shadow: 0px 0px 2px black;
+}
+.bday-age,.bday-date{
+    background: #4cb3f0;
+    padding: 8px 15px;
+    border-radius: 10px;
+    margin: 20px 0 3px 0;
+}
+.gif-section{
+    margin-top: 50px;
+}
+.gif-title, .gif-text2{
+    margin: 20px 5px;
+}
+.gif-img, .gif-img2, .gif-img3, .gif-img4, .gif-img5{
+    margin: 0 auto;
+    width: 450px;
+    border: 6px solid white;
+    border-radius: 10px;
+    height: 500px;
+    background: url("src/images/gif-img.jpg");
+    background-size: cover;
+}
+.gif-img5{
+    height: 200px;
+}
+.gif-img:hover{
+    background-image: url("src/images/happy.gif");
+}
+.gif-img2:hover{
+    background-image: url("src/images/love.gif");
+}
+.gif-img3:hover{
+    background-image: url("src/images/genius.gif");
+}
+.gif-img4:hover{
+    background-image: url("src/images/me.gif");
+}
+.gif-img5:hover{
+    background-image: url("src/images/loveyou.gif");
+}
+#footer{
+    margin: 30px 0 50px;
+    font-style: italic;
+    font-size: 20px;
+}
